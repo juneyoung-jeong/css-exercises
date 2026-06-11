@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+
+p { 
+    background-color: rgb(221, 138, 189);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+/* note: hashtags mark id selectors */
+#announcement {
+    color: #6850e1;
+    font-size: 36px;
+}
+
+#emphatic {
+    background-color: hsl(151, 50%, 40%);
+    font-size: 24px;
+    font-weight:bold;
+}
+
+/* defining class 'cooler' for the distinct paragraph */
+
+p.cooler {
+    font-size: 24px;
+}
