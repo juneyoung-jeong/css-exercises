@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,6 +11,29 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+
+}
+
+.infobox {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  gap: 52px;
+}
+
+
+.plant {
+  /* display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 200px; */
+  max-width: 200px;
+}
+/* I had overthought this. simple solution is to text-align: center under <body> to apply as default to all elements, and just define max-width here */
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
